@@ -7,7 +7,7 @@ const server = express();
 server.use(express.json());
 
 server.get('/', (req, res) => {
-    res.send('Sever is reponding and running!');
+    res.send('Server is reponding and running!');
 });
 
 module.exports = server;
